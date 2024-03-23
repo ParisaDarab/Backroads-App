@@ -29,3 +29,19 @@ export const SocialMapLink = ({ icon, itemClass }) => {
     </li>
   );
 };
+
+
+export const Service=({icon,title})=>{
+ return(
+  <article className="service" >
+  <span className="service-icon"><i className={`fas ${icon} fa-fw`}></i></span>
+  <div className="service-info">
+    <h4 className="service-title">{title}</h4>
+    <p className="service-text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Asperiores, officia.
+    </p>
+  </div>
+</article>
+ )
+}
